@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-BoldIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-BoldIt.woff') format('woff'),
+        url('TTAutonomousTrl-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Bold.woff2') format('woff2'),
+        url('TTAutonomousTrl-Bold.woff') format('woff'),
+        url('TTAutonomousTrl-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-DemiBoldIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-DemiBoldIt.woff') format('woff'),
+        url('TTAutonomousTrl-DemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-DemiBold.woff2') format('woff2'),
+        url('TTAutonomousTrl-DemiBold.woff') format('woff'),
+        url('TTAutonomousTrl-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraBoldIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraBoldIt.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraBold.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraBold.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraLight.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraLight.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraLightIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraLightIt.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-It.woff2') format('woff2'),
+        url('TTAutonomousTrl-It.woff') format('woff'),
+        url('TTAutonomousTrl-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-LightIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-LightIt.woff') format('woff'),
+        url('TTAutonomousTrl-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Light.woff2') format('woff2'),
+        url('TTAutonomousTrl-Light.woff') format('woff'),
+        url('TTAutonomousTrl-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-MediumIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-MediumIt.woff') format('woff'),
+        url('TTAutonomousTrl-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Regular.woff2') format('woff2'),
+        url('TTAutonomousTrl-Regular.woff') format('woff'),
+        url('TTAutonomousTrl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Medium.woff2') format('woff2'),
+        url('TTAutonomousTrl-Medium.woff') format('woff'),
+        url('TTAutonomousTrl-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
