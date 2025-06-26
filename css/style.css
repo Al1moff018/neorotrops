@@ -992,3 +992,386 @@ form input{
   width: 24px;
   height: 24px;
 }
+/* ==================== PLANSHTET (769px - 1024px) ==================== */
+@media (max-width: 1024px) {
+  /* HEADER */
+  .header .container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card.end{
+    display: none;
+  }
+  .bg-text{
+    display: none;
+  }
+
+  .product-hover {
+    padding: 30px 10px;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) scale(0.5) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .product-hover h3 {
+    font-size: 30px !important;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+  }
+  .card{
+    z-index: 100;
+  }
+  .header{
+    padding: 20px 20px;
+  }
+  .swiper-btn{
+    width: 24px;
+    height: 48px;
+  }
+  .swiper-scrollbar{
+    width: 420px;
+    height: 2px;
+  }
+  .swiper-scrollbar-drag{
+    background-color: #CFEE13;
+    border-radius: 0;
+    width:100px ;
+  }
+  .swiper-btn svg{
+    width: 24px;
+    height: 48px;
+  }
+  .header-logo {
+    width: 120px;
+  }
+  .header .container .header-logo img {
+    width: 100%;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .header .container .header-logo img {
+    width: 100%;
+    height: auto;
+  }
+  .header .container .header-logo{
+    width: 90px;
+  }
+  .tabs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tab-list{
+    overflow: auto;
+  }
+  .tab-list::-webkit-scrollbar {
+    display: none;
+}
+  .tab-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+  }
+  .tab-items {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: color 0.3s ease;
+    position: relative;
+    z-index: 10;
+  }
+  .tab-items.active {
+    color: #CFEE13;
+  }
+    .tab-link {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  .header .container .header-actions-box {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .header-actions-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .prev-btn{
+    top: 380px;
+    position: absolute;
+    left: 30px;
+    z-index: 100;
+  }
+  .swiper-btn.next-btn {
+    top: 380px;
+    position: absolute;
+    right: 80px;
+    z-index: 100;
+  }
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .header-phone-number {
+    font-size: 20px;
+  }
+  
+  /* SECTION-BG */
+  .section-bg .container {
+    padding-top: 200px;
+    height: 100vh;
+  }
+  .section-bg {
+    width: 100%;
+    padding-inline:70px ;
+    height: 800px;
+    overflow: hidden;
+  }
+  .section-bg::before {
+    width: 100%;
+    height: 800px;
+  }
+  .tabs a{
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #000 !important; 
+  }
+  .mashroom-img {
+    position: absolute;
+    bottom: 0;
+    display: none;
+  }
+  .slider-title {
+    font-size: 36px;
+  }
+  
+  .sub-title {
+    font-size: 28px;
+  }
+  
+  .slider-info {
+    font-size: 22px;
+    width: 80%;
+  }
+  
+  .mashroom-img {
+    width: 250px;
+  }
+  
+  /* PRODUCTS */
+  .cards-menu {
+    flex-direction: column;
+  }
+  .sky-bg-img{
+    bottom: 244px !important;
+  }
+  .title{
+    z-index: 2;
+    position: relative;
+    font-family: 'TT Autonomous Trl';
+  }
+  .card-row-1, .card-row-2 {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .card {
+    width: calc(50% - 15px);
+    background: linear-gradient(149.04deg, #424242 31.25%, #000000 93.13%);
+  }
+  
+  .product-hover {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}
+
+/* ==================== MOBILE (768px va kichik) ==================== */
+@media (max-width: 768px) {
+  /* HEADER */
+  .header .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .header-phone-number {
+    font-size: 18px;
+  }
+  
+  .header-actions-box {
+    gap: 15px;
+  }
+  
+  /* SECTION-BG */
+  .section-bg {
+    padding-bottom: 50px;
+    height: 1001px;
+    padding-top:  50px;
+    overflow: hidden;
+  }
+  .section-bg::before {
+    width: 1001px;
+  } 
+  
+  .section-bg .container {
+    padding-top: 150px;
+  }
+  
+  .slider-title {
+    font-size: 28px;
+  }
+  
+  .sub-title {
+    font-size: 22px;
+  }
+  
+  .slider-info {
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  .slider-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .slider-link {
+    padding: 10px 21px;
+    font-size: 14px;
+  }
+  
+  .mashroom-img {
+    width: 180px;
+    right: -211px;
+  }
+  
+  .grass-img {
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  /* PRODUCTS */
+  .card {
+    width: 100%;
+    background: linear-gradient(149.04deg, #424242 31.25%, #000000 93.13%);
+  }
+  .favorite-button{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 18px;
+    cursor: pointer;
+    width: 40px;
+  }
+  .card-row-1, .card-row-2 {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .product-title {
+    font-size: 20px;
+  }
+  
+  .product-subtitle {
+    font-size: 16px;
+  }
+  
+  .price {
+    font-size: 16px;
+  }
+  .swiper-btn{
+    top: 600px;
+  }
+  .swiper-btn.next-btn {
+    top: 600px;
+    position: absolute;
+    right: 80px;
+    z-index: 100;
+  }
+  .swiper-pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 110px !important;
+    left: 70% !important;
+    transform: translateX(-50%);
+  }
+  .swiper-pagination-bullet {
+    background-color: white;
+    opacity: 1;
+    margin: 0 !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #CFEE13;
+    width: 24px;
+    height: 24px;
+  }
+  .product-hover {
+    padding: 30px 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+  }
+  .product-hover h3 {
+    font-size: 30px !important;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .product-hover h3 {
+    font-size: 10px;
+  }
+  .sky-bg-img{
+    display: none;
+  }
+  .rock-img-bg{
+    display: none;
+  }
+  .bg-text{
+    display: none;
+  }
+  .product-hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
+    transition: all .3s linear;
+  }
+  .price{
+    padding-top: 15px;
+    font-size: 14px;
+  }
+}
