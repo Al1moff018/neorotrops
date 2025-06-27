@@ -344,6 +344,7 @@ body {
 .tab-list{
   display: flex;
   gap: 20px;
+  overflow: auto;
 }
 
 .intro {
@@ -1072,6 +1073,7 @@ form input{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    overflow: auto;
   }
   .tab-list{
     overflow: auto;
@@ -1155,6 +1157,9 @@ form input{
     gap: 10px;
     color: #000 !important; 
   }
+  .tabs a:hover{
+    color: #CFEE13 !important;
+  }
   .mashroom-img {
     position: absolute;
     bottom: 0;
@@ -1221,7 +1226,19 @@ form input{
   .header-actions-box {
     gap: 15px;
   }
-  
+  .tabs{
+    overflow: auto;
+    flex-wrap:nowrap ;
+  }
+  .tabs{
+    white-space: nowrap;
+  }
+  .tab-list::-webkit-scrollbar {
+    display: none;
+  }
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
   /* SECTION-BG */
   .section-bg {
     padding-bottom: 50px;
