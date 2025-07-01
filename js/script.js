@@ -31,7 +31,7 @@ var swiper = new Swiper(".bottom-swiper", {
       },
 });
 var swiper = new Swiper(".end-mini-swipers", {
-      slidesPerView: 3,
+      slidesPerView: 2.4,
       spaceBetween: 20,
       pagination: {
         el: ".swiper-pagination-end",

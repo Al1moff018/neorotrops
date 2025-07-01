@@ -12,7 +12,8 @@
   box-sizing: border-box;
 }
 .wrapper{
-  overflow: hidden;
+  overflow: hidden !important;
+  position: relative;
 }
 h1,
 h2,
@@ -292,6 +293,7 @@ body {
   color: white;
   margin-bottom: 10px;
 }
+
 .section-bg{
   background-image: url(../images/slider-section-bg.png);
   background-size: cover  ;
@@ -299,6 +301,10 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
+  overflow-y: hidden;
+}
+.section-bg::-webkit-scrollbar{
+  display: none;
 }
 .section-bg .container{
   padding-top:150px ;
@@ -767,13 +773,14 @@ footer{
   z-index: -1;
   opacity: 1;
   transition: transform .2s linear;
+  object-fit: cover;
 }
 .mashrooms-section .slider-link{
   margin-top: 60px;
 }
 .mashrooms-section .container{
   position: relative;
-  padding-block:40px 137px ;
+  padding-block:40px ;
 }
 .mashrooms-links{
   position: absolute;
@@ -936,6 +943,7 @@ footer{
   position: relative;
   transition: border .3s linear;
   color: #fff;
+  border-bottom: 2px solid gray;
 }
 .input-name:focus{
   border-bottom:3px solid #CFEE13;
@@ -993,12 +1001,27 @@ form input{
   width: 24px;
   height: 24px;
 }
-@media only screen and (max-width: 1024px) {
+@media  (max-width: 1024px) {
   /* General Adjustments */
   .container {
     padding: 0 20px;
   }
-  
+  .section-bg::before{
+    height: 568px !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  .end-section::before{
+    height: 548px !important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    content: "";
+    opacity: .8 ;
+  }
   /* Header */
   .header .container {
     flex-direction: column;
@@ -1011,16 +1034,28 @@ form input{
     justify-content: space-between;
     margin-top: 15px;
   }
-  
+  .header a,button{
+    display: none;
+  }
   .header-phone-number {
     font-size: 18px;
   }
-  
+  .header{
+    padding: 15px 0;
+    width: fit-content;
+    left: unset;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .header-actions.block{
+    display: block;
+  }
   /* Hero Section */
   .section-bg {
     height: auto;
     padding-bottom: 80px;
-    padding-top: 100px;
   }
   .swiper-btn svg{
     width: 16px;
@@ -1033,13 +1068,11 @@ form input{
     top: 200px;
   }
   .swiper-btn.prev-btn,.prev-btn-bottom {
-    left: 820px;
+    /* left: unset; */
     position: absolute;
+    right: 150px;
   }
-  ..swiper-btn.next-btn,.next-btn-bottom {
-    left: 830px !important;
-    position: absolute;
-  }
+
   .section-bg .container {
     padding-top: 120px;
   }
@@ -1085,7 +1118,14 @@ form input{
   .intro {
     padding: 80px 0;
   }
-  
+  .sky-bg-img{
+    position: absolute;
+    bottom: 137px;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
   .title {
     font-size: 36px;
   }
@@ -1138,7 +1178,11 @@ form input{
     width: 100%;
     margin-top: 15px;
   }
-  
+  .swiper-pagination-bottom {
+    position: relative;
+    z-index: 100;
+    padding: 10px 0;
+  }
   .card-2 {
     margin-top: 50px;
   }
